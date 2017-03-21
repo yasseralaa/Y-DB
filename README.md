@@ -23,7 +23,9 @@ Y-DB
     - then `vagrant ssh`
     - cd '/vagrant/tournament'
     - run 'psql -f tournament.sql'
-    - then run 'python tournament_test.py'
+    - '\c' : connects to the tournament database, drops connection to previous database
+    - '\i' : executes the sql commands within the sql file from psql
+    - then run 'python tournament_test.py' : to run test cases
     - Enjoy :)
 
 **Libraries and frameworks**
