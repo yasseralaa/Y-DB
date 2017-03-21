@@ -22,7 +22,8 @@ Y-DB
     - Run `vagrant up`
     - then `vagrant ssh`
     - cd '/vagrant/tournament'
-    - 'python tournament_test.py'
+    - run 'psql -f tournament.sql'
+    - then run 'python tournament_test.py'
     - Enjoy :)
 
 **Libraries and frameworks**
