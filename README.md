@@ -3,7 +3,7 @@ Y-DB
 
 **Description**
 
-    -a Python module that uses the PostgreSQL database to keep track of players and matches in a game tournament.
+    - A Python module that uses the PostgreSQL database to keep track of players and matches in a game tournament.
     - The game tournament will use the Swiss system for pairing up players in each round.
     - players are not eliminated, and each player should be paired with another player with the same number of wins, or as close as possible.
 
@@ -22,7 +22,8 @@ Y-DB
     - Run `vagrant up`
     - then `vagrant ssh`
     - cd '/vagrant/tournament'
-    - 'python tournament_test.py'
+    - run 'psql -f tournament.sql'
+    - then run 'python tournament_test.py'
     - Enjoy :)
 
 **Libraries and frameworks**
